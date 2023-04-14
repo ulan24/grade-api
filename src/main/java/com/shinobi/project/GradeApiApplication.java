@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.time.LocalDate;
 
 @SpringBootApplication
-public class StudentApiApplication implements CommandLineRunner {
+public class GradeApiApplication implements CommandLineRunner {
 
 	@Autowired
 	StudentRepository studentRepository;
@@ -26,7 +26,7 @@ public class StudentApiApplication implements CommandLineRunner {
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudentApiApplication.class, args);
+		SpringApplication.run(GradeApiApplication.class, args);
 	}
 
 	@Override

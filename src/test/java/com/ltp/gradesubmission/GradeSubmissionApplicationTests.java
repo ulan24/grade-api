@@ -1,10 +1,10 @@
-package com.shinobi.project;
+package com.ltp.gradesubmission;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StudentApiApplicationTests {
+class GradeSubmissionApplicationTests {
 
 	@Test
 	void contextLoads() {
