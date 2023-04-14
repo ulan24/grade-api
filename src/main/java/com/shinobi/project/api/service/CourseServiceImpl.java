@@ -4,10 +4,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
-import com.shinobi.project.api.entity.Course;
-import com.shinobi.project.api.entity.Student;
 import com.shinobi.project.api.repository.CourseRepository;
 import com.shinobi.project.api.repository.StudentRepository;
+import com.shinobi.project.api.entity.Course;
+import com.shinobi.project.api.entity.Student;
 import com.shinobi.project.api.exception.CourseNotFoundException;
 
 import lombok.AllArgsConstructor;

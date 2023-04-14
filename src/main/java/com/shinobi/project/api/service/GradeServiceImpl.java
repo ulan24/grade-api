@@ -2,14 +2,14 @@ package com.shinobi.project.api.service;
 
 import java.util.List;
 
-import com.shinobi.project.api.entity.Course;
-import com.shinobi.project.api.entity.Grade;
-import com.shinobi.project.api.entity.Student;
 import com.shinobi.project.api.exception.GradeNotFoundException;
 import com.shinobi.project.api.exception.StudentNotEnrolledException;
 import com.shinobi.project.api.repository.CourseRepository;
 import com.shinobi.project.api.repository.GradeRepository;
 import com.shinobi.project.api.repository.StudentRepository;
+import com.shinobi.project.api.entity.Course;
+import com.shinobi.project.api.entity.Grade;
+import com.shinobi.project.api.entity.Student;
 
 import java.util.Optional;
 
